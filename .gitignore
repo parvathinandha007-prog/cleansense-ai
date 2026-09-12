@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary / uploaded data files (never commit user data)
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.json
+!backend/static/*.json
+
+# Logs
+*.log
+
+# Antigravity IDE internal files
+.agents/
